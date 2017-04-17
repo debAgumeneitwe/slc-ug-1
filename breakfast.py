@@ -32,15 +32,18 @@ def mix_and_cook(food):
     print ("Get the ingredients")
     print ("mix")
     print ("pour into heated pan")
-    print ("flip the egg to the other side")
+    print ("flip the {} to the other side".format(food))
     #breakfast = "-------yummy pancake served with" + ""------"
     
 def breakfast(food,ingredients):
-    if (len(ingredients) == 0):
-        print ("yummy {}".food.format)
+    mix_and_cook(food)
+    if len(ingredients) == 0:
+        print ("yummy {}".format(food))
         
     else:
-        print ("yummy" + food+  "served with"+ ingredients )
+        print ("yummy " + food +  " served with " + ",".join(ingredients) )
+        
+breakfast("eggs",ingredients)
         
          
     
