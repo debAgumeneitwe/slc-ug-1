@@ -30,11 +30,6 @@ class TestPrimeGenerator(unittest.TestCase):
         self.assertTrue(self.test6)
         
         
-    
-    
-   
-    
-
 
 if __name__ == '__main__':
     unittest.main()
