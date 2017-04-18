@@ -1,0 +1,1 @@
+The growth rate for this algorithim is quadratic given the nested loop. It is quadratic giving it a run time of O(N2) 
